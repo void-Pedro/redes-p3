@@ -13,7 +13,7 @@ class IP:
         self.enlace.registrar_recebedor(self.__raw_recv)
         self.ignore_checksum = self.enlace.ignore_checksum
         self.meu_endereco = None
-        self.tabela = None
+        self.tabela = None 
         self.enviar_identificacao = 0
 
     def __raw_recv(self, datagrama):
